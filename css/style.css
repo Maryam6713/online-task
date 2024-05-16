@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(202, 198, 198);
+
+}
+.search{
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+b{
+    color: gray;
+}
+p{
+    color: gray;
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    
+    border-radius: 25px;
+}
+.btn-2{
+    border-radius: 100px;
+}
+
+.btn-3{
+    border-radius: 100px;
+}
+.btn-4{
+    border-radius: 120px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.option{
+    width: 200px;
+    height: 20vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Common styles for all screen sizes */
+
+  
+  /* Styles for mobile devices */
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+    }
+    .image{
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+  }
+  
+  /* Styles for tablets */
+  @media screen and (min-width: 601px) and (max-width: 899px) {
+    h1{
+      font-size: 50px;
+    }
+    .image{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .options{
+        margin-top: 40px;
+        margin-right: 30px;
+    
+  }
+}
+  
+  /* Styles for laptops and desktops */
+  @media screen and (min-width: 900px) {
+    h1 {
+      font-size: 50px;
+    }
+    
+  }
